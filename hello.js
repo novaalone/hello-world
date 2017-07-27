@@ -1,3 +1,4 @@
+
 let log = (type)=>{
     return (target,name,descriptor) => {
         const method = descriptor.value;
@@ -25,3 +26,5 @@ function hello() {
 }
 
 hello();
+
+console.log('bye');
